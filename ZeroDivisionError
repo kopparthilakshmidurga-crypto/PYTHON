@@ -1,0 +1,10 @@
+try:
+  a=int(input())
+  b=int(input())
+  c=a/b
+  print(c)
+  raise ZeroDivisionError
+except:
+   print("i can't divide")
+finally:
+  print("Thank You")
